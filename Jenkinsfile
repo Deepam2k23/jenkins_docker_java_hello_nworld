@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/pratikiacsd/jenkins_docker_java_hello_world.git'
+                    url: 'https://github.com/Deepam2k23/jenkins_docker_java_hello_nworld.git'
             }
         }
 
